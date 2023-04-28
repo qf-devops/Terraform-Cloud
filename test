@@ -1,0 +1,22 @@
+========================================================================
+
+You did it! You just provisioned infrastructure with Terraform Cloud!
+
+The organization we created here has a 30-day free trial of the Team &
+Governance tier features. After the trial ends, you'll be moved to the Free tier.
+
+You now have:
+
+  * Workspaces for organizing your infrastructure. Terraform Cloud manages
+    infrastructure collections with workspaces instead of directories. You
+    can view your workspace here:
+    https://app.terraform.io/app/example-org-e5e708/workspaces/getting-started
+  * Remote state management, with the ability to share outputs across
+    workspaces. We've set up state management for you in your current
+    workspace, and you can reference state from other workspaces using
+    the 'terraform_remote_state' data source.
+  * Much more!
+
+To see the mock infrastructure you just provisioned and continue exploring
+Terraform Cloud, visit:
+https://app.terraform.io/fake-web-services
