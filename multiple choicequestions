@@ -1,1 +1,273 @@
+What is Terraform?
+a) A configuration management tool
+b) An infrastructure provisioning tool
+c) A containerization tool
+d) A version control system
 
+Which programming language is primarily used for writing Terraform configuration files?
+a) Python
+b) JavaScript
+c) YAML
+d) HashiCorp Configuration Language (HCL)
+
+Which of the following cloud providers does Terraform support?
+a) Amazon Web Services (AWS)
+b) Microsoft Azure
+c) Google Cloud Platform (GCP)
+d) All of the above
+
+How does Terraform maintain the state of your infrastructure?
+a) It stores the state locally on the machine where Terraform is executed
+b) It uses a remote backend to store the state
+c) It doesn't maintain state, and it is the user's responsibility
+d) It dynamically generates the state during each execution
+
+What is the purpose of Terraform modules?
+a) To define variables and outputs in Terraform
+b) To organize and reuse Terraform configurations
+c) To define provider-specific settings in Terraform
+d) To integrate Terraform with other automation tools
+
+Answers:
+
+b) An infrastructure provisioning tool
+d) HashiCorp Configuration Language (HCL)
+d) All of the above
+b) It uses a remote backend to store the state
+b) To organize and reuse Terraform configurations
+
+What is Terraform?
+a) A configuration management tool
+b) An infrastructure provisioning tool
+c) A containerization tool
+d) A version control system
+
+Which programming language is primarily used for writing Terraform configuration files?
+a) Python
+b) JavaScript
+c) YAML
+d) HashiCorp Configuration Language (HCL)
+
+Which of the following cloud providers does Terraform support?
+a) Amazon Web Services (AWS)
+b) Microsoft Azure
+c) Google Cloud Platform (GCP)
+d) All of the above
+
+How does Terraform maintain the state of your infrastructure?
+a) It stores the state locally on the machine where Terraform is executed
+b) It uses a remote backend to store the state
+c) It doesn't maintain state, and it is the user's responsibility
+d) It dynamically generates the state during each execution
+
+What is the purpose of Terraform modules?
+a) To define variables and outputs in Terraform
+b) To organize and reuse Terraform configurations
+c) To define provider-specific settings in Terraform
+d) To integrate Terraform with other automation tools
+
+What is the command used to initialize a Terraform working directory?
+a) terraform plan
+b) terraform apply
+c) terraform init
+d) terraform validate
+
+Which command is used to create an execution plan in Terraform?
+a) terraform plan
+b) terraform apply
+c) terraform init
+d) terraform validate
+
+Which command is used to apply changes to the infrastructure based on a Terraform execution plan?
+a) terraform plan
+b) terraform apply
+c) terraform init
+d) terraform validate
+
+How does Terraform handle dependencies between resources?
+a) It automatically determines and enforces resource dependencies
+b) Dependencies must be explicitly defined by the user
+c) Terraform doesn't support resource dependencies
+d) Dependencies are resolved based on the order in which resources are declared
+
+What is the purpose of Terraform providers?
+a) To define the configuration for infrastructure resources
+b) To authenticate and interact with the target infrastructure provider
+c) To validate the Terraform configuration files
+d) To manage access control and permissions in Terraform
+
+Which file is commonly used to define input variables in Terraform?
+a) main.tf
+b) variables.tf
+c) outputs.tf
+d) terraform.tfvars
+
+What is the purpose of Terraform data sources?
+a) To fetch and retrieve external data for use in Terraform configurations
+b) To define the structure of the Terraform configuration files
+c) To validate the syntax and semantics of Terraform configurations
+d) To store and manage the Terraform state
+
+What is the purpose of Terraform provisioners?
+a) To define input variables for Terraform configurations
+b) To execute scripts or commands on a resource after it is created or updated
+c) To manage and store the Terraform state
+d) To configure the backend for storing the Terraform state
+
+What is the purpose of the terraform.tfstate file?
+a) It stores the Terraform configuration files
+b) It stores the Terraform execution plan
+c) It stores the current state of the managed infrastructure
+d) It stores the log files generated during Terraform execution
+
+What is Terraform?
+a) A configuration management tool
+b) An infrastructure provisioning tool
+c) A containerization tool
+d) A version control system
+
+Which programming language is primarily used for writing Terraform configuration files?
+a) Python
+b) JavaScript
+c) YAML
+d) HashiCorp Configuration Language (HCL)
+
+Which of the following cloud providers does Terraform support?
+a) Amazon Web Services (AWS)
+b) Microsoft Azure
+c) Google Cloud Platform (GCP)
+d) All of the above
+
+How does Terraform maintain the state of your infrastructure?
+a) It stores the state locally on the machine where Terraform is executed
+b) It uses a remote backend to store the state
+c) It doesn't maintain state, and it is the user's responsibility
+d) It dynamically generates the state during each execution
+
+What is the purpose of Terraform modules?
+a) To define variables and outputs in Terraform
+b) To organize and reuse Terraform configurations
+c) To define provider-specific settings in Terraform
+d) To integrate Terraform with other automation tools
+
+Which of the following is not a core component of Terraform?
+a) Providers
+b) Modules
+c) State files
+d) Playbooks
+
+What is the purpose of a Terraform provider?
+a) To define infrastructure resources in Terraform
+b) To manage authentication and authorization in Terraform
+c) To interface with a specific infrastructure platform
+d) To execute Terraform configurations
+
+What is the command to initialize a Terraform project?
+a) terraform apply
+b) terraform plan
+c) terraform init
+d) terraform refresh
+
+What is the purpose of the terraform.tfvars file?
+a) To store Terraform configuration files
+b) To define input variables for Terraform
+c) To store Terraform state files
+d) To define provider-specific settings for Terraform
+
+What is the difference between terraform apply and terraform plan?
+a) terraform apply applies changes to infrastructure, and terraform plan creates a plan of changes
+b) terraform apply creates a plan of changes, and terraform plan applies changes to infrastructure
+c) terraform apply and terraform plan are the same command
+d) terraform apply and terraform plan are used for different purposes and cannot be compared
+
+What is the purpose of the -target option in the terraform apply command?
+a) To specify a specific infrastructure resource to apply changes to
+b) To specify a specific module to apply changes to
+c) To force a full refresh of the Terraform state
+d) To destroy a specific infrastructure resource
+
+What is the purpose of the terraform validate command?
+a) To check the syntax of Terraform configuration files
+b) To check the validity of infrastructure resources defined in Terraform
+c) To check the validity of provider-specific settings in Terraform
+d) To check the Terraform state for inconsistencies
+
+Which command is used to destroy resources in Terraform?
+a) terraform destroy
+b) terraform delete
+c) terraform clean
+d) terraform remove
+
+Which of the following is a Terraform output?
+a) The status of the infrastructure resources
+b) The current value of a variable
+
+What is Terraform Cloud?
+a) An on-premises infrastructure provisioning tool
+b) A cloud-based service for managing Terraform configurations
+c) An open-source alternative to Terraform
+d) A plugin for integrating Terraform with popular cloud providers
+
+What are the key features of Terraform Cloud?
+a) Remote state management and collaboration
+b) Version control and code review for Terraform configurations
+c) Secure storage of API tokens and secrets
+d) All of the above
+
+How does Terraform Cloud handle remote state management?
+a) It automatically stores the state locally on the machine where Terraform is executed
+b) It uses a remote backend to store the state in Terraform Cloud
+c) It doesn't support remote state management
+d) It dynamically generates the state during each execution
+
+How can Terraform Cloud facilitate collaboration among team members?
+a) It provides a centralized repository for storing and sharing Terraform configurations
+b) It allows multiple users to work on the same Terraform project concurrently
+c) It supports role-based access control (RBAC) for managing permissions
+d) All of the above
+
+What is the purpose of workspaces in Terraform Cloud?
+a) To define variables and outputs in Terraform
+b) To organize and separate different environments or projects
+c) To define provider-specific settings in Terraform
+d) To integrate Terraform with other automation tools
+
+How does Terraform Cloud handle the execution of Terraform plans and applies?
+a) It executes plans and applies directly on the local machine
+b) It delegates plan and apply operations to the remote Terraform Cloud infrastructure
+c) It requires users to manually execute plans and applies on their local machines
+d) It doesn't support plan and apply operations
+
+What is the purpose of the Sentinel policy engine in Terraform Cloud?
+a) To enforce policy-based governance and compliance for Terraform configurations
+b) To manage authentication and authorization in Terraform Cloud
+c) To define infrastructure resources in Terraform
+d) To execute Terraform configurations
+
+How does Terraform Cloud integrate with version control systems like GitHub?
+a) It automatically syncs Terraform configurations with a GitHub repository
+b) It allows you to trigger Terraform runs based on changes to the repository
+c) It provides integration with pull requests and code review processes
+d) All of the above
+
+What is the purpose of the Terraform Cloud API?
+a) To interact with and manage Terraform Cloud programmatically
+b) To perform infrastructure provisioning and management tasks
+c) To store and retrieve Terraform state files
+d) To define provider-specific settings in Terraform
+
+How does Terraform Cloud ensure the security of sensitive information like API tokens and secrets?
+a) It encrypts and stores secrets in a secure manner
+b) It provides role-based access control (RBAC) for managing permissions
+c) It supports integration with external identity providers for authentication
+d) All of the above
+
+Answers:
+
+b) A cloud-based service for managing Terraform configurations
+d) All of the above
+b) It uses a remote backend to store the state in Terraform Cloud
+d) All of the above
+b) To organize and separate different environments or projects
+b) It delegates plan and apply operations to the remote Terraform Cloud infrastructure
+a) To enforce policy-based governance and compliance for
