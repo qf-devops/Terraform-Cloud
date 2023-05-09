@@ -271,3 +271,77 @@ d) All of the above
 b) To organize and separate different environments or projects
 b) It delegates plan and apply operations to the remote Terraform Cloud infrastructure
 a) To enforce policy-based governance and compliance for
+
+
+    What is Terraform?
+    a) A cloud-based infrastructure provisioning tool
+    b) An open-source infrastructure as code (IaC) tool
+    c) A configuration management tool
+    d) A containerization tool
+
+    Which of the following programming languages is primarily used to write Terraform configurations?
+    a) YAML
+    b) JSON
+    c) HCL (HashiCorp Configuration Language)
+    d) Ruby
+
+    Which command is used to initialize a new Terraform working directory?
+    a) terraform plan
+    b) terraform init
+    c) terraform apply
+    d) terraform validate
+
+    Which of the following statements best describes Terraform's "plan" command?
+    a) It generates an execution plan showing what Terraform will do when you apply the configuration.
+    b) It applies the changes described in the Terraform configuration to the infrastructure.
+    c) It validates the syntax and configuration of the Terraform files.
+    d) It retrieves and installs provider plugins used in the Terraform configuration.
+
+    Terraform supports various cloud providers. Which of the following is NOT a supported cloud provider?
+    a) Amazon Web Services (AWS)
+    b) Microsoft Azure
+    c) Google Cloud Platform (GCP)
+    d) Oracle Cloud Infrastructure (OCI)
+
+    Which Terraform command is used to create or update infrastructure resources according to the Terraform configuration?
+    a) terraform init
+    b) terraform validate
+    c) terraform apply
+    d) terraform destroy
+
+    In Terraform, what is the purpose of a "provider" block?
+    a) It specifies the authentication credentials for the cloud provider.
+    b) It defines the infrastructure resources to be provisioned.
+    c) It configures the remote state backend for storing the Terraform state.
+    d) It identifies the cloud provider and its API endpoint.
+
+    Which of the following features of Terraform allows for the reuse of configurations across multiple environments?
+    a) Resource groups
+    b) Modules
+    c) Workspaces
+    d) State files
+
+    What is the purpose of the Terraform state file?
+    a) It stores the configuration values for each resource in the infrastructure.
+    b) It tracks changes made to the infrastructure over time.
+    c) It stores the current state of the infrastructure managed by Terraform.
+    d) It allows for collaboration and version control of Terraform configurations.
+
+    Which command is used to destroy the infrastructure created by Terraform?
+    a) terraform apply
+    b) terraform destroy
+    c) terraform plan
+    d) terraform init
+
+Answers:
+
+    b
+    c
+    b
+    a
+    d
+    c
+    d
+    b
+    c
+    b
