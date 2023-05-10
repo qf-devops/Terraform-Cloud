@@ -129,3 +129,6 @@ d) All of the above
 b) To organize and separate different environments or projects
 b) It delegates plan and apply operations to the remote Terraform Cloud infrastructure
 a) To enforce policy-based governance and compliance for
+
+-----------------------
+1. What is the Terraform command to preview the infra changes before deploying them ?
