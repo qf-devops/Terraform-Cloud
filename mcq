@@ -130,5 +130,58 @@ b) To organize and separate different environments or projects
 b) It delegates plan and apply operations to the remote Terraform Cloud infrastructure
 a) To enforce policy-based governance and compliance for
 
------------------------
-1. What is the Terraform command to preview the infra changes before deploying them ?
+  21.  What is a custom resource in Terraform?
+    a. A resource type created by the Terraform community for specific use cases
+    b. A resource type defined and implemented by the Terraform user
+    c. A resource type provided by Terraform as part of its core functionality
+    d. A resource type specific to certain cloud providers
+
+ 22.   How is a custom resource defined in Terraform?
+    a. By extending an existing resource type with additional properties
+    b. By using a custom resource plugin provided by Terraform
+    c. By defining a resource block with a provider-specific type
+    d. By implementing a custom provider in Terraform
+
+23.    What can be achieved using custom resources in Terraform?
+    a. Provisioning and managing infrastructure resources
+    b. Executing arbitrary scripts or commands on the target system
+    c. Integrating with third-party services or APIs
+    d. All of the above
+
+24.    How are custom resources typically used in Terraform configurations?
+    a. As a way to extend the functionality of existing resources
+    b. As a replacement for built-in Terraform resources
+    c. As a mechanism for dynamic configuration generation
+    d. As a means to define complex resource dependencies
+
+25.    How are custom resources managed and maintained in Terraform?
+    a. They are included in the Terraform core distribution
+    b. They are installed as separate plugins using the terraform init command
+    c. They are automatically downloaded from a centralized registry
+    d. They are maintained by the cloud providers themselves
+    
+1. a
+2. c
+3. b
+4. a
+5. c
+6. c
+7. c
+8. a
+9. c
+10. b
+11. b
+12. d
+13. b
+14. d
+15. b
+16. b
+17. a
+18. d
+19. a
+20. a
+21. b
+22. d
+23. d
+24. a
+25. b
