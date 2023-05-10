@@ -1,0 +1,131 @@
+ 1.   What is Terraform?
+    a) A cloud service provider
+    b) A configuration management tool
+    c) A programming language
+    d) A containerization platform
+
+ 2.    Which of the following cloud providers are supported by Terraform?
+    a) AWS and Azure
+    b) Google Cloud Platform (GCP) and Heroku
+    c) Oracle Cloud Infrastructure (OCI) and IBM Cloud
+    d) All of the above
+
+  3.  Which command is used to initialize a new Terraform working directory?
+    a) terraform apply
+    b) terraform init
+    c) terraform plan
+    d) terraform validate
+
+   4.  What is a Terraform module?
+    a) A reusable configuration file
+    b) A set of cloud infrastructure resources
+    c) A programming construct in Terraform
+    d) A template for generating Terraform code
+
+  5.   Which file format does Terraform use to define infrastructure resources?
+    a) YAML
+    b) JSON
+    c) HCL (HashiCorp Configuration Language)
+    d) XML
+
+ 6.   What is the purpose of the terraform plan command?
+    a) It creates a new infrastructure stack.
+    b) It updates an existing infrastructure stack.
+    c) It generates an execution plan for creating or modifying infrastructure resources.
+    d) It applies changes to the infrastructure resources.
+
+  7.  Which Terraform command is used to apply changes to the infrastructure?
+    a) terraform validate
+    b) terraform refresh
+    c) terraform apply
+    d) terraform destroy
+
+  8.  What is a Terraform state file?
+    a) A file that contains the current state of infrastructure resources managed by Terraform.
+    b) A file that defines the desired state of infrastructure resources.
+    c) A file that stores the Terraform configuration code.
+    d) A file that contains logs and debugging information.
+
+   9.  Which of the following is NOT a Terraform resource?
+    a) aws_instance
+    b) azurerm_virtual_machine
+    c) terraform_variable
+    d) gcp_compute_instance
+
+   10 . What is Terraform's approach to infrastructure as code (IaC)?
+    a) Imperative
+    b) Declarative
+    c) Procedural
+    d) Object-oriented
+    
+  Terraform cloud:
+  
+11.   What is Terraform Cloud?
+a) An on-premises infrastructure provisioning tool
+b) A cloud-based service for managing Terraform configurations
+c) An open-source alternative to Terraform
+d) A plugin for integrating Terraform with popular cloud providers
+
+12 .What are the key features of Terraform Cloud?
+a) Remote state management and collaboration
+b) Version control and code review for Terraform configurations
+c) Secure storage of API tokens and secrets
+d) All of the above
+
+13. How does Terraform Cloud handle remote state management?
+a) It automatically stores the state locally on the machine where Terraform is executed
+b) It uses a remote backend to store the state in Terraform Cloud
+c) It doesn't support remote state management
+d) It dynamically generates the state during each execution
+
+14. How can Terraform Cloud facilitate collaboration among team members?
+a) It provides a centralized repository for storing and sharing Terraform configurations
+b) It allows multiple users to work on the same Terraform project concurrently
+c) It supports role-based access control (RBAC) for managing permissions
+d) All of the above
+
+15. What is the purpose of workspaces in Terraform Cloud?
+a) To define variables and outputs in Terraform
+b) To organize and separate different environments or projects
+c) To define provider-specific settings in Terraform
+d) To integrate Terraform with other automation tools
+
+16. How does Terraform Cloud handle the execution of Terraform plans and applies?
+a) It executes plans and applies directly on the local machine
+b) It delegates plan and apply operations to the remote Terraform Cloud infrastructure
+c) It requires users to manually execute plans and applies on their local machines
+d) It doesn't support plan and apply operations
+
+17. What is the purpose of the Sentinel policy engine in Terraform Cloud?
+a) To enforce policy-based governance and compliance for Terraform configurations
+b) To manage authentication and authorization in Terraform Cloud
+c) To define infrastructure resources in Terraform
+d) To execute Terraform configurations
+
+18 . How does Terraform Cloud integrate with version control systems like GitHub?
+a) It automatically syncs Terraform configurations with a GitHub repository
+b) It allows you to trigger Terraform runs based on changes to the repository
+c) It provides integration with pull requests and code review processes
+d) All of the above
+
+19 . What is the purpose of the Terraform Cloud API?
+a) To interact with and manage Terraform Cloud programmatically
+b) To perform infrastructure provisioning and management tasks
+c) To store and retrieve Terraform state files
+d) To define provider-specific settings in Terraform
+
+20 . How does Terraform Cloud ensure the security of sensitive information like API tokens and secrets?
+a) It encrypts and stores secrets in a secure manner
+b) It provides role-based access control (RBAC) for managing permissions
+c) It supports integration with external identity providers for authentication
+d) All of the above
+
+Answers:
+
+b) A cloud-based service for managing Terraform configurations
+d) All of the above
+b) It uses a remote backend to store the state in Terraform Cloud
+d) All of the above
+b) To organize and separate different environments or projects
+b) It delegates plan and apply operations to the remote Terraform Cloud infrastructure
+a) To enforce policy-based governance and compliance for
